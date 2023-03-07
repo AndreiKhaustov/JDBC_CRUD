@@ -39,8 +39,9 @@ public class App {
 //            }
 //
 ////        }
-//        crudRepository.create("Andrei", 28);
+        crudRepository.create("Andrei0", 28);
 //        crudRepository.update(5, "Andrej", 29);
-        crudRepository.delete(5);
+//        crudRepository.delete(5);
+        System.out.println(crudRepository.getConsumer(6));
     }
 }
